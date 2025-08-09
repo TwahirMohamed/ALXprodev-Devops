@@ -25,3 +25,16 @@ Sample Output:
 ghostmode@GhostMode:~$ ./parse_pikachu
 Pikachu is of type Electric, weighs 6kg, and is 0.4m tall.
 ghostmode@GhostMode:~$
+
+# Task 2: Batch Pokémon Data Retrieval
+## Objective: 
+Automate the retrieval of data for multiple Pokémon and store it in separate files.
+
+## Instructions:
+
+Create a script that loops through a list of Pokémon [Bulbasaur, Ivysaur, Venusaur, Charmander, Charmeleon]
+
+For each Pokémon, retrieve its data from the API and save it to a separate file named after the Pokémon (e.g., pikachu.json, bulbasaur.json…).
+
+Handle any potential rate-limiting issues by adding a delay between requests.
+
