@@ -61,3 +61,14 @@ Add robust error handling and retry logic for API requests.
 Modify the script from Task 2 to handle potential errors (e.g., network issues, invalid Pokémon names).
 
 If an API request fails, implement a retry mechanism that attempts the request up to 3 times before logging the error and skipping to the next Pokémon.
+
+# Task 5. Parallel Data Fetching
+
+## Objective: 
+Speed up data retrieval using parallel processing.
+
+## Instructions:
+
+Write a script that fetches data for these Pokémon[Bulbasaur, Ivysaur, Venusaur, Charmander, Charmeleon ] in parallel by leveraging background processes and process management tools.
+
+Ensure that the script handles background processes properly and waits for all processes to complete before moving to the next step.
